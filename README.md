@@ -16,7 +16,7 @@ you did not solve the challenges using the clues in the story and you just hacke
 and you just hacked the eChallengeCoin. That's OK too!
 ```
 
-Let's wait the 2021 version!
+You can follow this guide while waiting the 2021 version!
 
 ## Tools
 
@@ -117,6 +117,8 @@ Then, let's move to the code. I used a combination of static (**Cutter**) and dy
 Placing breakpoints in the proper places (you should know how to do it if you have read everything until now), you should be able to find your way...
 
 <img src="https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/gdb_break.png" alt="gdb_break" style="zoom:75%;" />
+
+Now that I did the heavy lifting, it's your turn!
 
 ## Step 5: some code
 
