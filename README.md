@@ -33,7 +33,7 @@ The eChallngeCoin has a very cool look & feel. But it does not expose anything i
 
 As you can see the board exposes the PINs/interfaces on the edge of the coin (let's call them PADs). Some of them (4) are not labelled, or better they are, but  with some cryptic tags: M1, M2, K1 and X1. This attracted my attention. With the help of a multimeter and the MCU datasheet, I mapped the 4 unlabelled PADs as follow:
 
-<img src="/home/cesare/Downloads/tmp/echallengecoin/echallenge_coin_ICSP.png" alt="echallenge_coin_ICSP" style="zoom:67%;" />
+<img src="https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/echallenge_coin_ICSP.png" alt="echallenge_coin_ICSP" style="zoom:67%;" />
 
 - M1: MISO
 - M2: MOSI
@@ -96,7 +96,7 @@ Now everything is ready to start the analysis.
 
 There are a lot of things we can investigate. For example the **EEPROM** dump
 
-![eeprom](/home/cesare/Downloads/tmp/echallengecoin/eeprom.png)
+![eeprom](https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/eeprom.png)
 
 Most of the bytes seems to be unused, but few of them are set to some values. If you play with them you can understand what they control or represent. I didn't investigated all of them, you can do your tests.
 
@@ -112,11 +112,11 @@ hex(abs((sum([int(hexline[i:i+2],16) for i in range(1,len(hexline), 2)])& 0xFF) 
 
 Then, let's move to the code. I used a combination of static (**Cutter**) and dynamic analysis. It required some time to figure out the general picture, it was not so easy. You can explore a lot of things, but since I told you I don't want to spoil to much, I'll give you here a snippet of the string decryption routine isolated into the AVR code
 
-<img src="/home/cesare/Downloads/tmp/echallengecoin/cutter_dec.png" alt="cutter_dec" style="zoom:75%;" />
+<img src="https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/cutter_dec.png" alt="cutter_dec" style="zoom:75%;" />
 
 Placing breakpoints in the proper places (you should know how to do it if you have read everything until now), you should be able to find your way...
 
-<img src="/home/cesare/Downloads/tmp/echallengecoin/gdb_break.png" alt="gdb_break" style="zoom:75%;" />
+<img src="https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/gdb_break.png" alt="gdb_break" style="zoom:75%;" />
 
 ## Step 5: some code
 
