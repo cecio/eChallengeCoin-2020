@@ -2,7 +2,7 @@
 
 Before Defcon 28 (yeah, the one that "has been cancelled" :-)), [Bradán Lane Studio](https://www.tindie.com/products/bradanlane/echallengecoin-2020/) released this really interesting badge/coin/board, with a very funny adventure on it. You can find some more details [here](https://aosc.cc/).
 
-<img src="/home/cesare/Downloads/tmp/echallengecoin/thecoin.png" alt="thecoin" style="zoom:67%;" />
+<img src="https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/thecoin.png" alt="thecoin" style="zoom:67%;" />
 
 I started to play with it, but I found myself too dumb to solve the challenges...so I tried to follow another way, which is more familiar to me...reversing :-). This is a little guide on how I did it. 
 
