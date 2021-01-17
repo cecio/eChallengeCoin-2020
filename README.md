@@ -1,4 +1,4 @@
-# eChallenegeCoin 2020 Hack Guide
+# eChallengeCoin 2020 Hack Guide
 
 Before Defcon 28 (yeah, the one that "has been cancelled" :-)), [Bradán Lane Studio](https://www.tindie.com/products/bradanlane/echallengecoin-2020/) released this really interesting badge/coin/board, with a very funny adventure on it. You can find some more details [here](https://aosc.cc/).
 
