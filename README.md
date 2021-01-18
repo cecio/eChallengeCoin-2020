@@ -110,7 +110,7 @@ hex(abs((sum([int(hexline[i:i+2],16) for i in range(1,len(hexline), 2)])& 0xFF) 
 
 **Hint**: I had to tamper a bit with the file to have everything running in the emulator.
 
-Then, let's move to the code. I used a combination of static (**Cutter**) and dynamic analysis. It required some time to figure out the general picture, it was not so easy. You can explore a lot of things, but since I told you I don't want to spoil to much, I'll give you here a snippet of the string decryption routine isolated into the AVR code
+Then, let's move to the code. I used a combination of static (**Cutter**) and dynamic analysis. It required some time to figure out the general picture, it was not so easy. You can explore a lot of things, but since I told you I don't want to spoil to much, I'll give you here a snippet of the string decryption/decompression routine isolated into the AVR code
 
 <img src="https://github.com/cecio/eChallengeCoin-2020/blob/main/Pictures/cutter_dec.png" alt="cutter_dec" style="zoom:75%;" />
 
@@ -122,7 +122,7 @@ Now that I did the heavy lifting, it's your turn!
 
 ## Step 5: some code
 
-This is just a quick Python implementation of the decryption routine, if you want to use it:
+This is just a quick Python implementation of the decryption/decompression routine, if you want to use it:
 
 ```
 def dec_buffer(buffer):
