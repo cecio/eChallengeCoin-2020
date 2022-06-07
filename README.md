@@ -86,7 +86,7 @@ When you have your **simavr** and **gdb** ready, follow these steps:
 
   `avrdude -p m328p -c arduino -P /tmp/simavr-uart0 -U eeprom:w:eeprom.hex`
 
-  `avrdude -p m328p -c arduino -P /tmp/simavr-uart0 -U eeprom:w:flash.hex`
+  `avrdude -p m328p -c arduino -P /tmp/simavr-uart0 -U flash:w:flash.hex`
 
 - you can now use your favourite terminal emulator to attach to `/tmp/simavr-uart0` and see the eChallengeCoin output
 
