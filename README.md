@@ -40,7 +40,7 @@ As you can see the board exposes the PINs/interfaces on the edge of the coin (le
 - K1: Clock
 - X1: RST
 
-This look very promising, since this seems to be SPI port connections. If I can attach a "programmer" to this, may be I can dump the content of the flash.
+This look very promising, since this seems to be a SPI connection. If I can attach a "programmer" to this, may be I can dump the content of the flash.
 
 ## Step 2: dumping EEPROM and FLASH
 
