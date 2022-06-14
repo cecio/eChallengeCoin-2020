@@ -44,7 +44,7 @@ This look very promising, since this seems to be a SPI connection. If I can atta
 
 ## Step 2: dumping EEPROM and FLASH
 
-**WARNING**: *before following these steps, I suggest to remove the battery from the eChallengeCoin. And, as a general rule, if you do something wrong, you may brick/destroy your boards. Be careful, you are responsible of your actions!*
+**WARNING**: *before following these steps, I suggest to remove the battery from the eChallengeCoin. And, as a general rule, if you do something wrong, you may brick/destroy your board. Be careful, you are responsible of your actions!*
 
 I did this with an **Arduino UNO**, but you can probably use also some other versions, or even another ISP programmer.
 
